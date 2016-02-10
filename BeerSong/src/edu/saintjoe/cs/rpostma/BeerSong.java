@@ -5,6 +5,7 @@ public class BeerSong {
 	public static void main(String[] args) {
 		// Book code for the song
 		int beerNum = 99;
+		
 		String word = "bottles";
 		
 		while (beerNum > 0) {
@@ -17,6 +18,7 @@ public class BeerSong {
 			System.out.println(beerNum + " " + word + " of beer.");
 			System.out.println("Take one down.");
 			System.out.println("Pass it around.");
+			
 			beerNum = beerNum - 1;
 			
 			if (beerNum > 0) {
@@ -29,4 +31,4 @@ public class BeerSong {
 		
 	}//end main
 	
-}//end beersong class
+}//end BeerSong class

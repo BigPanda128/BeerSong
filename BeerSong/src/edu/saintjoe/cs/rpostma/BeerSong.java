@@ -1,5 +1,5 @@
 package edu.saintjoe.cs.rpostma;
-//test comment
+
 public class BeerSong {
 
 	public static void main(String[] args) {
